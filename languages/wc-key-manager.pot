@@ -1,0 +1,2605 @@
+# Copyright (C) 2024 PluginEver
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Key Manager 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wckeymanager.com/\n"
+"POT-Creation-Date: 2024-10-22 13:19:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/API/Activations.php:62 includes/API/Keys.php:64
+msgid "Unique identifier for the account."
+msgstr ""
+
+#: includes/API/Activations.php:143 includes/API/Keys.php:145
+msgid "Cannot create existing item."
+msgstr ""
+
+#: includes/API/Activations.php:183 includes/API/Activations.php:216
+msgid "The activation was not found."
+msgstr ""
+
+#: includes/API/Activations.php:226 includes/API/Keys.php:227
+msgid "The key cannot be deleted."
+msgstr ""
+
+#: includes/API/Activations.php:310 includes/API/Keys.php:313
+msgid "Unique identifier for the item."
+msgstr ""
+
+#: includes/API/Activations.php:319
+msgid "Instance."
+msgstr ""
+
+#: includes/API/Activations.php:327
+msgid "Key identifier."
+msgstr ""
+
+#: includes/API/Activations.php:335 includes/API/Keys.php:322
+msgid "Unique key."
+msgstr ""
+
+#: includes/API/Activations.php:341
+msgid "IP address."
+msgstr ""
+
+#: includes/API/Activations.php:349
+msgid "User agent."
+msgstr ""
+
+#: includes/API/Activations.php:357 includes/API/Keys.php:394
+#: includes/API/Keys.php:497
+msgid "Key status."
+msgstr ""
+
+#: includes/API/Activations.php:365 includes/API/Keys.php:453
+msgid "The date the item was created."
+msgstr ""
+
+#: includes/API/Activations.php:372 includes/API/Keys.php:460
+msgid "The date the item was last updated."
+msgstr ""
+
+#: includes/API/Activations.php:391
+msgid "Unique key identifier."
+msgstr ""
+
+#: includes/API/Activations.php:396
+msgid "Activation status."
+msgstr ""
+
+#: includes/API/Controller.php:275
+msgid "Sorry, you are not allowed to view items."
+msgstr ""
+
+#: includes/API/Controller.php:295
+msgid "Sorry, you are not allowed to create item."
+msgstr ""
+
+#: includes/API/Controller.php:315
+msgid "Sorry, you are not allowed to view item."
+msgstr ""
+
+#: includes/API/Controller.php:335
+msgid "Sorry, you are not allowed to update item."
+msgstr ""
+
+#: includes/API/Controller.php:355
+msgid "Sorry, you are not allowed to delete item."
+msgstr ""
+
+#: includes/API/Controller.php:394
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/API/Controller.php:402
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/API/Controller.php:411
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: includes/API/Controller.php:417
+msgid "Limit result set to specific ids."
+msgstr ""
+
+#: includes/API/Controller.php:424
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: includes/API/Controller.php:431
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: includes/API/Keys.php:184 includes/API/Keys.php:256
+msgid "Invalid item ID."
+msgstr ""
+
+#: includes/API/Keys.php:217
+msgid "The key was not found."
+msgstr ""
+
+#: includes/API/Keys.php:330 includes/API/Keys.php:479
+msgid "Product ID."
+msgstr ""
+
+#: includes/API/Keys.php:338 includes/API/Keys.php:485
+msgid "Order ID."
+msgstr ""
+
+#: includes/API/Keys.php:346
+msgid "Order item ID."
+msgstr ""
+
+#: includes/API/Keys.php:354
+msgid "Subscription ID."
+msgstr ""
+
+#: includes/API/Keys.php:362
+msgid "Vendor ID."
+msgstr ""
+
+#: includes/API/Keys.php:370 includes/API/Keys.php:491
+msgid "Customer ID."
+msgstr ""
+
+#: includes/API/Keys.php:378
+msgid "Order price."
+msgstr ""
+
+#: includes/API/Keys.php:386
+msgid "Key source."
+msgstr ""
+
+#: includes/API/Keys.php:402
+msgid "Key validity."
+msgstr ""
+
+#: includes/API/Keys.php:410
+msgid "Key UUID."
+msgstr ""
+
+#: includes/API/Keys.php:419
+msgid "Key activation limit."
+msgstr ""
+
+#: includes/API/Keys.php:427
+msgid "Key activation count."
+msgstr ""
+
+#: includes/API/Keys.php:436
+msgid "Order date."
+msgstr ""
+
+#: includes/API/Keys.php:445
+msgid "Key expiration date."
+msgstr ""
+
+#: includes/Admin/Admin.php:60
+msgid "Select products"
+msgstr ""
+
+#: includes/Admin/Admin.php:61
+msgid "Select orders"
+msgstr ""
+
+#: includes/Admin/Admin.php:62
+msgid "Select customers"
+msgstr ""
+
+#: includes/Admin/Admin.php:101
+#. translators: %s: Plugin name
+msgid "Thank you for using %s!"
+msgstr ""
+
+#: includes/Admin/Admin.php:107
+#. translators: %s: Plugin name
+msgid " Share your appreciation with a five-star review %s."
+msgstr ""
+
+#: includes/Admin/Admin.php:127
+#. translators: 1: Plugin version
+msgid "Version %s"
+msgstr ""
+
+#: includes/Admin/Admin.php:141
+msgid "Key Validation Page"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:118
+#. translators: %s: number of accounts.
+msgid "%s activations(s) deleted successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:143
+#. translators: %s: number of accounts.
+msgid "%s activations(s) activated successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:168
+#. translators: %s: number of accounts.
+msgid "%s activations(s) deactivated successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:178
+#: includes/Admin/views/keys/edit/activations.php:52
+#: templates/key/activations.php:82
+msgid "No activations found."
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:194
+#: includes/Admin/ListTables/GeneratorsTable.php:178
+#: includes/Admin/ListTables/KeysTable.php:129
+msgid "All"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:233
+#: includes/Admin/ListTables/KeysTable.php:182
+msgid "Filter"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:247
+#: includes/Admin/ListTables/ActivationsTable.php:453
+#: includes/Admin/ListTables/GeneratorsTable.php:208
+#: includes/Admin/ListTables/GeneratorsTable.php:388
+#: includes/Admin/ListTables/KeysTable.php:159
+#: includes/Admin/ListTables/KeysTable.php:403
+#: includes/Admin/views/activations/edit.php:97
+#: includes/Admin/views/generators/form.php:109
+#: includes/Admin/views/keys/edit/actions.php:51
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:248
+#: includes/Admin/ListTables/ActivationsTable.php:489
+#: includes/Admin/ListTables/GeneratorsTable.php:209
+#: includes/Admin/ListTables/GeneratorsTable.php:424
+#: includes/Admin/ListTables/KeysTable.php:387
+msgid "Activate"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:249
+#: includes/Admin/ListTables/ActivationsTable.php:472
+#: includes/Admin/ListTables/GeneratorsTable.php:210
+#: includes/Admin/ListTables/GeneratorsTable.php:407
+#: templates/key/activations.php:69
+msgid "Deactivate"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:265
+#: includes/Admin/views/activations/add.php:41
+#: includes/Admin/views/activations/edit.php:33
+#: includes/Admin/views/keys/edit/activations.php:28
+#: includes/Handlers/Account.php:229 templates/key/activations.php:103
+msgid "Instance"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:266
+#: includes/Admin/ListTables/KeysTable.php:198 includes/Admin/Orders.php:269
+#: includes/Admin/Settings.php:247 includes/Admin/views/activations/add.php:27
+#: includes/Admin/views/keys/activate.php:24
+#: includes/Admin/views/keys/add.php:34 includes/Handlers/Account.php:162
+#: includes/Handlers/Emails.php:44 includes/Handlers/Orders.php:204
+#: includes/Handlers/Shortcodes.php:47 includes/Models/Key.php:579
+#: includes/functions.php:860
+msgid "Key"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:267
+#: includes/Admin/ListTables/KeysTable.php:199 includes/Admin/Settings.php:248
+#: includes/Admin/views/dashboard/product-stocks.php:48
+#: includes/Admin/views/dashboard/top-products.php:24
+#: includes/Admin/views/keys/add.php:48
+#: includes/Admin/views/tools/import.php:99 includes/Handlers/Account.php:161
+#: includes/Handlers/Emails.php:43 includes/Handlers/Orders.php:203
+#: includes/Models/Key.php:572 includes/functions.php:853
+msgid "Product"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:268
+#: includes/Admin/ListTables/KeysTable.php:200
+#: includes/Admin/views/dashboard/recent-orders.php:27
+#: includes/Admin/views/keys/add.php:132
+#: includes/Admin/views/keys/edit/order.php:29 templates/myaccount/keys.php:67
+msgid "Order"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:269
+#: includes/Admin/ListTables/GeneratorsTable.php:230
+#: includes/Admin/ListTables/KeysTable.php:203
+#: includes/Admin/views/activations/edit.php:83
+#: includes/Admin/views/generators/form.php:95
+#: includes/Admin/views/keys/edit/actions.php:29
+#: includes/Admin/views/keys/edit/activations.php:31
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:350
+#: templates/myaccount/keys.php:66 templates/order/keys.php:71
+msgid "View"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:374
+#: includes/Admin/ListTables/KeysTable.php:302
+#. translators: %s: product price
+msgid "Price: %s"
+msgstr ""
+
+#: includes/Admin/ListTables/ActivationsTable.php:437
+#: includes/Admin/ListTables/GeneratorsTable.php:372
+#: includes/Admin/ListTables/KeysTable.php:373
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:102
+#. translators: %s: number of accounts.
+msgid "%s generator(s) deleted successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:127
+#. translators: %s: number of accounts.
+msgid "%s generator(s) activated successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:152
+#. translators: %s: number of accounts.
+msgid "%s generator(s) deactivated successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:162
+msgid "No generators found."
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:226
+#: includes/Admin/views/generators/form.php:27
+#: includes/Admin/views/keys/edit/customer.php:28
+#: includes/Admin/views/keys/edit/product.php:29
+msgid "Name"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:227
+#: includes/Admin/Settings.php:303 includes/Admin/views/generators/form.php:38
+msgid "Pattern"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:228
+msgid "Valid For"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:229
+#: includes/Admin/Settings.php:326
+#: includes/Admin/views/activations/edit/key.php:44
+#: includes/Admin/views/generators/form.php:73
+#: includes/Admin/views/keys/add.php:74 includes/Admin/views/keys/edit.php:78
+msgid "Activation Limit"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:313
+msgid "Lifetime"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:332
+msgid "Unlimited"
+msgstr ""
+
+#: includes/Admin/ListTables/KeysTable.php:103
+#. translators: %s: number of accounts.
+msgid "%s key(s) deleted successfully."
+msgstr ""
+
+#: includes/Admin/ListTables/KeysTable.php:113
+msgid "No keys found."
+msgstr ""
+
+#: includes/Admin/ListTables/KeysTable.php:201 includes/Admin/Orders.php:275
+#: includes/Admin/Settings.php:249
+#: includes/Admin/views/activations/edit/key.php:40
+#: includes/Handlers/Account.php:163 includes/Handlers/Emails.php:45
+#: includes/Handlers/Orders.php:205 includes/Models/Key.php:586
+#: includes/functions.php:867
+msgid "Expires"
+msgstr ""
+
+#: includes/Admin/ListTables/KeysTable.php:202 includes/Admin/Orders.php:280
+#: includes/Admin/Utilities.php:31 includes/Admin/views/activations/list.php:12
+#: includes/Models/Key.php:593 includes/functions.php:874
+#: templates/key/activations.php:31
+msgid "Activations"
+msgstr ""
+
+#: includes/Admin/ListTables/KeysTable.php:336
+#. translators: %s: activation date
+msgid "Activated at: %s"
+msgstr ""
+
+#: includes/Admin/ListTables/ListTable.php:145
+#: includes/Admin/views/dashboard/recent-customers.php:41
+msgid "Guest"
+msgstr ""
+
+#: includes/Admin/ListTables/ListTable.php:163
+#: includes/Admin/ListTables/ListTable.php:165
+msgid "Filter by order"
+msgstr ""
+
+#: includes/Admin/ListTables/ListTable.php:186
+#: includes/Admin/ListTables/ListTable.php:188
+msgid "Filter by product"
+msgstr ""
+
+#: includes/Admin/ListTables/ListTable.php:209
+#: includes/Admin/ListTables/ListTable.php:211
+msgid "Filter by customer"
+msgstr ""
+
+#: includes/Admin/Menus.php:76 includes/Admin/Menus.php:77
+#: includes/Admin/Products.php:160
+msgid "Key Manager"
+msgstr ""
+
+#: includes/Admin/Menus.php:88 includes/Admin/Menus.php:89
+#: includes/Admin/views/dashboard.php:14
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menus.php:148 includes/Admin/Settings.php:379
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/Admin/Menus.php:199
+msgid "Per page"
+msgstr ""
+
+#: includes/Admin/Menus.php:325
+msgid "Upgrade to Pro to manage export options."
+msgstr ""
+
+#: includes/Admin/Menus.php:346
+msgid "Upgrade to Pro to manage custom fields."
+msgstr ""
+
+#: includes/Admin/Menus.php:389 includes/Admin/views/keys/activate.php:40
+#: includes/Admin/views/keys/edit/customer.php:34
+#: includes/Handlers/Shortcodes.php:50
+msgid "Email"
+msgstr ""
+
+#: includes/Admin/Menus.php:390
+msgid "Content type"
+msgstr ""
+
+#: includes/Admin/Menus.php:391
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/Admin/Menus.php:423
+#: includes/Admin/views/dashboard/recent-customers.php:27
+#: includes/Admin/views/keys/add.php:118
+msgid "Customer"
+msgstr ""
+
+#: includes/Admin/Menus.php:429
+msgid "Manually sent"
+msgstr ""
+
+#: includes/Admin/Menus.php:429
+msgid "Manual"
+msgstr ""
+
+#: includes/Admin/Menus.php:431
+msgid "Enabled"
+msgstr ""
+
+#: includes/Admin/Menus.php:431 includes/Admin/Products.php:49
+#: includes/Admin/views/products/software-options.php:24
+msgid "Yes"
+msgstr ""
+
+#: includes/Admin/Menus.php:433
+msgid "Disabled"
+msgstr ""
+
+#: includes/Admin/Menus.php:445
+msgid "Manage"
+msgstr ""
+
+#: includes/Admin/Menus.php:482
+msgid "Upgrade to Pro to manage webhooks."
+msgstr ""
+
+#: includes/Admin/Menus.php:493
+msgid "Upgrade to Pro to manage barcodes."
+msgstr ""
+
+#: includes/Admin/Menus.php:504
+msgid "Upgrade to Pro to manage API settings."
+msgstr ""
+
+#: includes/Admin/Orders.php:52
+msgid "Whether the order contains keyed products."
+msgstr ""
+
+#: includes/Admin/Orders.php:82
+msgid "Order contains keyed products."
+msgstr ""
+
+#: includes/Admin/Orders.php:107
+msgid "Add pending keys to the order"
+msgstr ""
+
+#: includes/Admin/Orders.php:108
+msgid "Remove all keys from the order"
+msgstr ""
+
+#: includes/Admin/Orders.php:109
+msgid "Send keys to the customer"
+msgstr ""
+
+#: includes/Admin/Orders.php:132
+#. translators: %d: order ID %d: user ID.
+msgid "Manually adding keys to order #%1$d by user #%2$d."
+msgstr ""
+
+#: includes/Admin/Orders.php:144
+#. translators: %s: number of keys added.
+msgid "Added %s keys to the order."
+msgstr ""
+
+#: includes/Admin/Orders.php:152
+msgid "No keys were added to the order."
+msgstr ""
+
+#: includes/Admin/Orders.php:169
+#. translators: %d: order ID %d: user ID.
+msgid "Manually removing keys from order #%1$d by user #%2$d."
+msgstr ""
+
+#: includes/Admin/Orders.php:181
+#. translators: %s: number of keys removed.
+msgid "Removed %s keys from the order."
+msgstr ""
+
+#: includes/Admin/Orders.php:189
+msgid "No keys were removed from the order."
+msgstr ""
+
+#: includes/Admin/Orders.php:201
+msgid "The order does not contain any keyed products. No keys were sent."
+msgstr ""
+
+#: includes/Admin/Orders.php:206
+msgid "Keys have been sent to the customer."
+msgstr ""
+
+#: includes/Admin/Orders.php:253
+msgid "Related keys:"
+msgstr ""
+
+#: includes/Admin/Orders.php:259
+#. translators: %s: number of keys pending.
+msgid "Alert: There are %s key(s) pending for this item."
+msgstr ""
+
+#: includes/Admin/Orders.php:285 includes/Admin/Settings.php:250
+#: includes/Admin/views/activations/edit.php:77
+#: includes/Admin/views/generators/form.php:89
+#: includes/Admin/views/keys/edit/actions.php:16
+#: includes/Handlers/Account.php:164
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin/Orders.php:287
+msgid "Edit key &rarr;"
+msgstr ""
+
+#: includes/Admin/Products.php:45 includes/Admin/Products.php:98
+#: includes/Admin/Products.php:100 includes/Admin/Products.php:140
+#: includes/Admin/Utilities.php:24 includes/Admin/Utilities.php:25
+#: includes/Admin/Utilities.php:29 includes/Admin/views/keys/list.php:12
+#: includes/Handlers/Account.php:79 includes/Handlers/Account.php:118
+#: templates/order/keys.php:29
+msgid "Keys"
+msgstr ""
+
+#: includes/Admin/Products.php:48 includes/Admin/Products.php:58
+msgid "— No change —"
+msgstr ""
+
+#: includes/Admin/Products.php:50
+#: includes/Admin/views/products/software-options.php:23
+msgid "No"
+msgstr ""
+
+#: includes/Admin/Products.php:55
+#: includes/Admin/views/products/source-options.php:32
+msgid "Key Source"
+msgstr ""
+
+#: includes/Admin/Products.php:59 includes/Models/Key.php:191
+msgid "Automatic"
+msgstr ""
+
+#: includes/Admin/Products.php:60 includes/Models/Key.php:192
+msgid "Preset"
+msgstr ""
+
+#: includes/Admin/Products.php:122
+msgid "keyed product"
+msgstr ""
+
+#: includes/Admin/Products.php:141
+msgid "Sell keys for this product."
+msgstr ""
+
+#: includes/Admin/Requests.php:49
+msgid "You do not have permission to access this endpoint."
+msgstr ""
+
+#: includes/Admin/Requests.php:162
+#. translators: $1: customer name, $2 customer id, $3: customer email
+msgid "%1$s (#%2$s - %3$s)"
+msgstr ""
+
+#: includes/Admin/Requests.php:223 includes/Admin/Requests.php:356
+#: includes/Admin/Requests.php:406 includes/Admin/Requests.php:456
+#: includes/Admin/Requests.php:501 includes/Admin/Requests.php:547
+#: includes/Admin/Requests.php:597 includes/Admin/Requests.php:744
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: includes/Admin/Requests.php:276 includes/Models/Key.php:691
+msgid "Order item not found."
+msgstr ""
+
+#: includes/Admin/Requests.php:288
+msgid "Successfully created order and added key to it."
+msgstr ""
+
+#: includes/Admin/Requests.php:296
+msgid "Selected order not found."
+msgstr ""
+
+#: includes/Admin/Requests.php:331
+#. translators: %s: order id
+msgid "Key has been created and added to order #%s."
+msgstr ""
+
+#: includes/Admin/Requests.php:339
+msgid "Key has been added successfully."
+msgstr ""
+
+#: includes/Admin/Requests.php:389
+msgid "Key has been updated successfully."
+msgstr ""
+
+#: includes/Admin/Requests.php:439
+msgid "Generator has been saved successfully."
+msgstr ""
+
+#: includes/Admin/Requests.php:467
+msgid "Key not found."
+msgstr ""
+
+#: includes/Admin/Requests.php:484
+msgid "Activation has been added successfully."
+msgstr ""
+
+#: includes/Admin/Requests.php:530
+msgid "Activation has been updated successfully."
+msgstr ""
+
+#: includes/Admin/Requests.php:569
+msgid "Could not generate any keys. Please check the generator settings."
+msgstr ""
+
+#: includes/Admin/Requests.php:580
+#. Translators: %s: number of keys generated.
+msgid "%s keys have been generated successfully."
+msgstr ""
+
+#: includes/Admin/Requests.php:606 includes/Admin/Requests.php:762
+msgid "Error: No file uploaded."
+msgstr ""
+
+#: includes/Admin/Requests.php:613
+msgid "Invalid file type, only CSV allowed."
+msgstr ""
+
+#: includes/Admin/Requests.php:619 includes/Admin/Requests.php:775
+msgid "Error: File is not readable."
+msgstr ""
+
+#: includes/Admin/Requests.php:625 includes/Admin/Requests.php:781
+msgid "Error: File is empty."
+msgstr ""
+
+#: includes/Admin/Requests.php:633
+msgid "Error: File does not exist."
+msgstr ""
+
+#: includes/Admin/Requests.php:656
+#. Translators: %s is the missing column name.
+msgid "Error: Required column \"%s\" is missing."
+msgstr ""
+
+#: includes/Admin/Requests.php:688 includes/Admin/Requests.php:791
+msgid "Error: No records found."
+msgstr ""
+
+#: includes/Admin/Requests.php:728
+#. Translators: %1$d: total records, %2$d: success, %3$d: failed.
+msgid "CSV import completed. Total records: %1$d, Success: %2$d, Failed: %3$d"
+msgstr ""
+
+#: includes/Admin/Requests.php:755
+msgid "Error: Please select a product."
+msgstr ""
+
+#: includes/Admin/Requests.php:769
+msgid "Error: Invalid file type."
+msgstr ""
+
+#: includes/Admin/Requests.php:831
+#. translators: %1$d: total records, %2$d: success, %3$d: failed.
+msgid "TXT import completed. Total records: %1$d, Success: %2$d, Failed: %3$d"
+msgstr ""
+
+#: includes/Admin/Settings.php:37 includes/Admin/Utilities.php:43
+msgid "General"
+msgstr ""
+
+#: includes/Admin/Settings.php:38
+msgid "Advanced"
+msgstr ""
+
+#: includes/Admin/Settings.php:39
+msgid "Misc"
+msgstr ""
+
+#: includes/Admin/Settings.php:40
+msgid "Emails"
+msgstr ""
+
+#: includes/Admin/Settings.php:55
+msgid "🔥 Features"
+msgstr ""
+
+#: includes/Admin/Settings.php:73
+msgid "API Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:75
+msgid "Configure API related settings."
+msgstr ""
+
+#: includes/Admin/Settings.php:79
+msgid "Enable REST API"
+msgstr ""
+
+#: includes/Admin/Settings.php:80
+msgid "Enable the REST API Endpoints."
+msgstr ""
+
+#: includes/Admin/Settings.php:81
+msgid "Enable creating, updating, and deleting keys using the REST API."
+msgstr ""
+
+#: includes/Admin/Settings.php:87
+msgid "Software API"
+msgstr ""
+
+#: includes/Admin/Settings.php:88
+msgid "Enable the Software API"
+msgstr ""
+
+#: includes/Admin/Settings.php:89
+msgid ""
+"This will enable using \"?wckm-api={action}\" endpoint for performing "
+"software licensing operations."
+msgstr ""
+
+#: includes/Admin/Settings.php:115
+msgid "Key Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:117
+msgid "Configure the key related settings."
+msgstr ""
+
+#: includes/Admin/Settings.php:122
+msgid "Recycle Keys"
+msgstr ""
+
+#: includes/Admin/Settings.php:123
+msgid "Automatically recover keys when an order is cancelled, refunded, or fails."
+msgstr ""
+
+#: includes/Admin/Settings.php:124
+msgid ""
+"Enabling this option will allow keys from cancelled, refunded, or failed "
+"orders to be reused for new orders."
+msgstr ""
+
+#: includes/Admin/Settings.php:130
+msgid "Allow Duplicate Keys"
+msgstr ""
+
+#: includes/Admin/Settings.php:131
+msgid "Enable creating duplicate keys [Not Recommended]."
+msgstr ""
+
+#: includes/Admin/Settings.php:132
+msgid ""
+"By default, creating duplicate keys is disabled. Enabling this option will "
+"allow the generation of duplicate keys. This is generally not recommended "
+"as it can cause issues with software licensing."
+msgstr ""
+
+#: includes/Admin/Settings.php:141
+msgid "Delivery Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:143
+msgid "Configure how & when keys are delivered to customers."
+msgstr ""
+
+#: includes/Admin/Settings.php:148
+msgid "Auto Key Delivery"
+msgstr ""
+
+#: includes/Admin/Settings.php:149
+msgid "Send the key to the customer automatically after payment."
+msgstr ""
+
+#: includes/Admin/Settings.php:150
+msgid ""
+"This option will send the key to the customer once the payment is "
+"completed. If disabled, you will need to deliver the key manually."
+msgstr ""
+
+#: includes/Admin/Settings.php:156
+msgid "Deliver on Processing"
+msgstr ""
+
+#: includes/Admin/Settings.php:157
+msgid "Deliver the key when the order status is processing."
+msgstr ""
+
+#: includes/Admin/Settings.php:158
+msgid ""
+"This will deliver the key when the order status is processing. If disabled, "
+"the key will be delivered when the order status is completed."
+msgstr ""
+
+#: includes/Admin/Settings.php:164
+msgid "Hide Keys On"
+msgstr ""
+
+#: includes/Admin/Settings.php:165
+msgid ""
+"Order details page. If checked, keys will not be shown on the order details "
+"page."
+msgstr ""
+
+#: includes/Admin/Settings.php:172
+msgid ""
+"Order processing email notifications. If checked, keys will not be shown in "
+"order processing email notifications."
+msgstr ""
+
+#: includes/Admin/Settings.php:179
+msgid ""
+"Order completed email notifications. If checked, keys will not be shown in "
+"order completed email notifications."
+msgstr ""
+
+#: includes/Admin/Settings.php:191
+msgid "Product Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:193
+msgid "Configure product related settings."
+msgstr ""
+
+#: includes/Admin/Settings.php:197
+msgid "Stock Management"
+msgstr ""
+
+#: includes/Admin/Settings.php:198
+msgid "Enable automatic stock management for WooCommerce products."
+msgstr ""
+
+#: includes/Admin/Settings.php:199
+msgid ""
+"To use this function, you need to enable the following settings at the "
+"product level:<br>1: WooCommerce → Settings → Products → Inventory "
+"management<br>2: Product → Key Manager → Key Source → Preset"
+msgstr ""
+
+#: includes/Admin/Settings.php:205
+msgid "Software Licensing"
+msgstr ""
+
+#: includes/Admin/Settings.php:206
+msgid "Enable software licensing for WooCommerce products."
+msgstr ""
+
+#: includes/Admin/Settings.php:207
+msgid "This will enable software licensing for the product."
+msgstr ""
+
+#: includes/Admin/Settings.php:213
+msgid "Out of Stock Keys"
+msgstr ""
+
+#: includes/Admin/Settings.php:214
+msgid "Disable selling keys when preset key is not available."
+msgstr ""
+
+#: includes/Admin/Settings.php:215
+msgid "This will disable selling keys when the preset key is not available."
+msgstr ""
+
+#: includes/Admin/Settings.php:225
+msgid "My Account Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:227
+msgid "Configure settings for the WooCommerce My Account page."
+msgstr ""
+
+#: includes/Admin/Settings.php:231
+msgid "Keys Page"
+msgstr ""
+
+#: includes/Admin/Settings.php:232
+msgid "Enable the keys page."
+msgstr ""
+
+#: includes/Admin/Settings.php:233
+msgid ""
+"This will add a keys page in the My Account section where customers can "
+"view their keys."
+msgstr ""
+
+#: includes/Admin/Settings.php:239
+msgid "Keys Page Columns"
+msgstr ""
+
+#: includes/Admin/Settings.php:240
+msgid ""
+"Select the columns to display on the keys page. Leave blank to show all "
+"columns."
+msgstr ""
+
+#: includes/Admin/Settings.php:241
+msgid "Choose which columns to show on the keys page."
+msgstr ""
+
+#: includes/Admin/Settings.php:255
+msgid "Show Activations"
+msgstr ""
+
+#: includes/Admin/Settings.php:256
+msgid "Display the activations list for each key."
+msgstr ""
+
+#: includes/Admin/Settings.php:257
+msgid "This will show the activations list for each key in the My Account page."
+msgstr ""
+
+#: includes/Admin/Settings.php:263
+msgid "Allow Activation"
+msgstr ""
+
+#: includes/Admin/Settings.php:264
+msgid "Allow customers to activate their keys."
+msgstr ""
+
+#: includes/Admin/Settings.php:265
+msgid "This will enable customers to activate their keys from the My Account page."
+msgstr ""
+
+#: includes/Admin/Settings.php:271
+msgid "Allow Deactivation"
+msgstr ""
+
+#: includes/Admin/Settings.php:272
+msgid "Allow customers to deactivate their keys."
+msgstr ""
+
+#: includes/Admin/Settings.php:273
+msgid ""
+"This will enable customers to deactivate their keys from the My Account "
+"page."
+msgstr ""
+
+#: includes/Admin/Settings.php:279
+msgid "Validate Key Page"
+msgstr ""
+
+#: includes/Admin/Settings.php:280
+msgid "Select the page for key validation."
+msgstr ""
+
+#: includes/Admin/Settings.php:281
+msgid ""
+"This will add a key validation page where customers can validate their "
+"keys. Must use the shortcode [wckm_validate_key]."
+msgstr ""
+
+#: includes/Admin/Settings.php:297
+msgid "Default Automatic Key Settings"
+msgstr ""
+
+#: includes/Admin/Settings.php:299
+msgid ""
+"Configure how automatic keys will be generated. You can override these "
+"settings in the product edit page."
+msgstr ""
+
+#: includes/Admin/Settings.php:304
+msgid ""
+"The pattern will be used to generate keys. Hashes (#) will be replaced by "
+"random characters. You can use the following placeholders too:<br>{id} - "
+"Product ID<br>{sku} - Product SKU<br>{Y} - Year<br>{m} - Month<br>{d} - "
+"Day<br>{H} - Hour<br>{i} - Minute<br>{s} - Second"
+msgstr ""
+
+#: includes/Admin/Settings.php:311 includes/Admin/views/generators/form.php:52
+msgid "Charset"
+msgstr ""
+
+#: includes/Admin/Settings.php:312
+msgid "Hashes (#) in the key pattern will be replaced by these characters."
+msgstr ""
+
+#: includes/Admin/Settings.php:319 includes/Admin/views/generators/form.php:63
+#: includes/Admin/views/keys/add.php:58 includes/Admin/views/keys/edit.php:59
+#: includes/Admin/views/tools/import.php:117
+msgid "Valid For (days)"
+msgstr ""
+
+#: includes/Admin/Settings.php:320
+msgid ""
+"Relative expiration date in number from the date of purchase. Leave blank "
+"for no expiration."
+msgstr ""
+
+#: includes/Admin/Settings.php:327
+msgid "Number of times the key can be activated. Leave blank for no limit."
+msgstr ""
+
+#: includes/Admin/Settings.php:376 lib/ByteKit/Traits/HasPlugin.php:216
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/Utilities.php:30 includes/Admin/views/generators/list.php:12
+msgid "Generators"
+msgstr ""
+
+#: includes/Admin/Utilities.php:37 includes/Admin/Utilities.php:38
+msgid "Tools"
+msgstr ""
+
+#: includes/Admin/Utilities.php:44 includes/Admin/views/keys/list.php:17
+#: includes/Admin/views/tools/import.php:73
+#: includes/Admin/views/tools/import.php:139
+msgid "Import"
+msgstr ""
+
+#: includes/Admin/Utilities.php:49 includes/Admin/Utilities.php:50
+#: lib/ByteKit/Traits/HasPlugin.php:255
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/views/activations/add.php:15
+#: includes/Admin/views/keys/activate.php:15 templates/key/activations.php:89
+msgid "Activate Key"
+msgstr ""
+
+#: includes/Admin/views/activations/add.php:17
+#: includes/Admin/views/activations/edit.php:19
+#: includes/Admin/views/generators/add.php:15
+#: includes/Admin/views/generators/edit.php:16
+#: includes/Admin/views/keys/add.php:18 includes/Admin/views/keys/edit.php:18
+msgid "Go Back"
+msgstr ""
+
+#: includes/Admin/views/activations/add.php:34
+#: includes/Admin/views/keys/activate.php:31
+msgid "Enter the key to activate."
+msgstr ""
+
+#: includes/Admin/views/activations/add.php:47
+#: includes/Admin/views/activations/edit.php:37
+#: includes/Admin/views/keys/activate.php:64
+msgid ""
+"Anything you want to use to reference this activation. It could be a "
+"number, domain, or anything else but it must be unique per key."
+msgstr ""
+
+#: includes/Admin/views/activations/add.php:57
+#: includes/Admin/views/keys/activate.php:74
+#: includes/Admin/views/keys/add.php:16 includes/Admin/views/keys/add.php:146
+msgid "Add Key"
+msgstr ""
+
+#: includes/Admin/views/activations/edit/key.php:16
+msgid "Key details"
+msgstr ""
+
+#: includes/Admin/views/activations/edit/key.php:31
+#: includes/Handlers/Account.php:83
+msgid "View Key"
+msgstr ""
+
+#: includes/Admin/views/activations/edit/key.php:41 includes/Models/Key.php:520
+msgid "Never"
+msgstr ""
+
+#: includes/Admin/views/activations/edit/key.php:48
+#: includes/Admin/views/keys/edit.php:89
+msgid "Activation Count"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:14
+msgid "Edit Activation"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:16
+#: includes/Admin/views/keys/edit.php:15
+msgid "Add Another"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:28
+msgid "Activation Attributes"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:44
+#: includes/Admin/views/keys/edit/activations.php:29
+#: includes/Handlers/Account.php:230
+msgid "IP Address"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:48
+msgid "The IP address from where the activation was made."
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:55
+msgid "User Agent"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:59
+msgid "The user agent from where the activation was made."
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:65
+#. translators: %s: activation creation date.
+msgid "The activation was created on %s"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:68
+#: includes/Admin/views/keys/edit.php:115
+#. translators: %s: activation update date.
+#. translators: %s: key update date.
+msgid " and last updated on %s"
+msgstr ""
+
+#: includes/Admin/views/activations/edit.php:99
+#: includes/Admin/views/generators/form.php:111
+#: includes/Admin/views/keys/edit/actions.php:53
+#: templates/key/activations.php:118
+msgid "Submit"
+msgstr ""
+
+#: includes/Admin/views/activations/list.php:15
+#: includes/Admin/views/generators/list.php:15
+#: includes/Admin/views/keys/list.php:21
+#. translators: %s: search query.
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: includes/Admin/views/activations/list.php:19
+#: includes/Admin/views/generators/add.php:13
+#: includes/Admin/views/generators/list.php:19
+#: includes/Admin/views/keys/list.php:14
+msgid "Add New"
+msgstr ""
+
+#: includes/Admin/views/activations/list.php:26
+#: includes/Admin/views/generators/list.php:26
+#: includes/Admin/views/keys/list.php:28
+msgid "Search"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:76
+#: includes/Admin/views/dashboard/growth-cart.php:100
+msgid "Sales"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:88
+msgid "Growth"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:106
+msgid "Orders"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:112
+msgid "Customers"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:118
+msgid "Keys Sold"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:124
+msgid "Keys Added"
+msgstr ""
+
+#: includes/Admin/views/dashboard/growth-cart.php:130
+msgid "Keys Expired"
+msgstr ""
+
+#: includes/Admin/views/dashboard/product-stocks.php:46
+msgid "Product Stocks"
+msgstr ""
+
+#: includes/Admin/views/dashboard/product-stocks.php:49
+msgid "Stocks"
+msgstr ""
+
+#: includes/Admin/views/dashboard/product-stocks.php:63
+#: includes/Admin/views/dashboard/top-products.php:39
+msgid "No products found."
+msgstr ""
+
+#: includes/Admin/views/dashboard/recent-customers.php:25
+msgid "Recent Customers"
+msgstr ""
+
+#: includes/Admin/views/dashboard/recent-customers.php:28
+#: includes/Admin/views/dashboard/recent-orders.php:28
+msgid "Amount"
+msgstr ""
+
+#: includes/Admin/views/dashboard/recent-customers.php:51
+msgid "No customers found"
+msgstr ""
+
+#: includes/Admin/views/dashboard/recent-orders.php:25
+msgid "Recent Orders"
+msgstr ""
+
+#: includes/Admin/views/dashboard/recent-orders.php:38
+#. translators: %d: order id.
+msgid "Order #%d"
+msgstr ""
+
+#: includes/Admin/views/dashboard/recent-orders.php:49
+msgid "No orders found"
+msgstr ""
+
+#: includes/Admin/views/dashboard/top-products.php:22
+msgid "Top Products"
+msgstr ""
+
+#: includes/Admin/views/dashboard/top-products.php:25
+msgid "Total"
+msgstr ""
+
+#: includes/Admin/views/generators/edit.php:14
+msgid "Edit Generator"
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:19
+msgid "Generator Attributes"
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:32
+msgid "Enter a friendly name for the generator."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:43
+msgid "Hash (#) will be replaced by random alphanumeric character."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:44
+msgid "{product_id} will be replaced with the product id."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:45
+msgid "{product_sku} will be replaced with the product SKU."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:46
+msgid ""
+"{d}, {m}, {y}, {h}, {i}, {s} will be replaced with the current date and "
+"time."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:57
+msgid "Enter the charset for the generator. Leave empty for default charset."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:67
+msgid ""
+"Relative expiration date in number from the time of purchase. Leave it "
+"blank for lifetime validity."
+msgstr ""
+
+#: includes/Admin/views/generators/form.php:77
+#: includes/Admin/views/keys/edit.php:82
+msgid ""
+"Number of times the key can be activated. Leave it blank for unlimited "
+"activations."
+msgstr ""
+
+#: includes/Admin/views/keys/activate.php:47
+msgid "Enter the customer email associated with the key."
+msgstr ""
+
+#: includes/Admin/views/keys/activate.php:57
+msgid "Token"
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:22
+msgid ""
+"You can create a new key here. This form will create a key for the user, "
+"and optionally an associated order. Created orders will be marked as "
+"pending payment."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:43
+msgid ""
+"Enter the key, It's will be sent to the customer when they purchase the "
+"associated product."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:49
+#: includes/Admin/views/tools/general.php:28
+#: includes/Admin/views/tools/import.php:101
+msgid "Select a  product..."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:50
+#: includes/Admin/views/tools/import.php:102
+msgid "Select a product..."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:53
+msgid ""
+"Select the product associated with the key. When customer purchase this "
+"product, the key will be sent to them."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:61
+#: includes/Admin/views/tools/import.php:120
+msgid ""
+"Relative expiration dates from the date of purchase. Leave empty for no "
+"expiration."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:66 includes/Admin/views/keys/edit.php:69
+msgid "Date Expires"
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:69
+msgid "Specific expiration date for the key. Leave empty for no expiration."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:77
+msgid ""
+"Enter the number of times the key can be activated. Leave empty for "
+"unlimited activations."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:96
+msgid "Create as a new key & set the status to available."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:97
+msgid "This will create a new key and set the status to available."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:103
+msgid "Create a new corresponding order for this key."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:104
+msgid ""
+"This will first create a new key and then create a corresponding order with "
+"the selected product and assign the key to that order."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:110
+msgid "Assign this key to an existing order."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:111
+msgid ""
+"This will check the existing order and if the selected product is found "
+"without a key, it will assign the key to that item otherwise it will add a "
+"new product to the order and assign the key."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:119 includes/Admin/views/keys/add.php:120
+msgid "Select a customer..."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:123
+msgid "Select the customer associated with the key."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:126
+msgid "Add Customer"
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:133 includes/Admin/views/keys/add.php:134
+msgid "Select an order..."
+msgstr ""
+
+#: includes/Admin/views/keys/add.php:137
+msgid "Select the order to which the key should be assigned."
+msgstr ""
+
+#: includes/Admin/views/keys/edit/activations.php:16
+msgid "Recent Activations"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/activations.php:19
+msgid "View all"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/activations.php:30
+msgid "Activation Date"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/activations.php:42
+#: includes/Admin/views/keys/edit/customer.php:30
+#: includes/Emails/CustomerKeys.php:170
+msgid "N/A"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/customer.php:17
+msgid "Customer details"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/customer.php:19
+msgid "View Customer"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/customer.php:40
+msgid "Phone"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/order.php:18
+msgid "Order details"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/order.php:20
+msgid "View Order"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/order.php:33
+msgid "Order Date"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/order.php:37
+msgid "Order Status"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/product.php:18
+msgid "Product details"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/product.php:20
+msgid "View Product"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/product.php:33
+msgid "SKU"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/product.php:37
+msgid "Type"
+msgstr ""
+
+#: includes/Admin/views/keys/edit/product.php:41
+msgid "Price"
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:13
+msgid "Edit Key"
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:35
+msgid "Key Attributes"
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:48
+msgid "key"
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:53
+msgid "The key that will be sent to the customer."
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:63
+msgid ""
+"Relative expiration date in number from the time of purchase. Leave it "
+"blank for lifetime validity. Use either \"Valid For\" or \"Date Expires\"."
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:73
+msgid ""
+"Specific expiration date for the key. Leave empty for no expiration. Use "
+"either \"Valid For\" or \"Date Expires\"."
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:93
+msgid "Number of times the key has been activated."
+msgstr ""
+
+#: includes/Admin/views/keys/edit.php:112
+#. translators: %s: key creation date.
+msgid "The key was created on %s"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:20
+msgid "Limited Time Offer! PluginEver Halloween Sale: 30% OFF!!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:27
+#. translators: 1.Offer Percentage, 2. Coupon Code.
+msgid ""
+"Spectacular Halloween Deal! Get %1$s on all premium plugins with code %2$s. "
+"Don't miss out — this offer vanishes soon! 👻"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:40
+msgid "Claim your discount!!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:44
+msgid "Remind me later"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:48
+msgid "Never show this again!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:52
+msgid "DISMISS"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:55
+msgid "Valid until November 10, 2024"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:18
+msgid "Enjoying Key Manager?"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:25
+#. translators: %1$s: WC Key Manager Pro link, %2$s: Coupon code.
+msgid ""
+"We hope you had a wonderful experience using %1$s. Please take a moment to "
+"show us your support by leaving a 5-star review on <a href=\"%2$s\" "
+"target=\"_blank\"><strong>WordPress.org</strong></a>. Thank you! 😊"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:37
+msgid "Sure, I'd love to help!"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:41
+#: includes/Admin/views/notices/upgrade.php:39
+msgid "Maybe later"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:45
+msgid "I've already left a review"
+msgstr ""
+
+#: includes/Admin/views/notices/upgrade.php:17
+msgid "Flash Sale Alert!"
+msgstr ""
+
+#: includes/Admin/views/notices/upgrade.php:23
+#. translators: %1$s: WC Key Manager Pro link, %2$s: Coupon code.
+msgid ""
+"Get access to %1$s with a <strong>20%% discount</strong> for the next "
+"<strong>72 hours</strong> only! Use coupon code %2$s at checkout. Hurry up, "
+"the offer ends soon."
+msgstr ""
+
+#: includes/Admin/views/notices/upgrade.php:35
+msgid "Upgrade now"
+msgstr ""
+
+#: includes/Admin/views/products/key-options.php:18
+msgid "Delivery Quantity"
+msgstr ""
+
+#: includes/Admin/views/products/key-options.php:19
+msgid "Enter the number of keys to be delivered per quantity of the product."
+msgstr ""
+
+#: includes/Admin/views/products/software-options.php:18
+msgid "Software"
+msgstr ""
+
+#: includes/Admin/views/products/software-options.php:32
+msgid "Software Version"
+msgstr ""
+
+#: includes/Admin/views/products/software-options.php:46
+msgid "Min PHP Version"
+msgstr ""
+
+#: includes/Admin/views/products/software-options.php:60
+msgid "Min WP Version"
+msgstr ""
+
+#: includes/Admin/views/products/software-options.php:73
+msgid "Software File"
+msgstr ""
+
+#: includes/Admin/views/products/software-options.php:83
+msgid "Changelog"
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:36
+msgid "Automatically generate keys or use preset keys."
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:42
+msgid "Key Generator"
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:43
+#: includes/Admin/views/tools/general.php:41
+msgid "Select a  Generator..."
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:49
+#: includes/Admin/views/tools/general.php:46
+msgid "Select a specific key generator or leave empty to use default settings."
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:54
+msgid "Preset Stock"
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:60
+#. translators: %s: Number of keys.
+msgid "You have %s preset keys for this product."
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:72
+msgid "Sequential Keys"
+msgstr ""
+
+#: includes/Admin/views/products/source-options.php:73
+msgid "Generate keys in sequential order."
+msgstr ""
+
+#: includes/Admin/views/promos/misc-promo.php:16
+#: includes/Admin/views/promos/misc-promo.php:25
+msgid "SMS Settings - Twilio"
+msgstr ""
+
+#: includes/Admin/views/promos/misc-promo.php:17
+msgid "Configure the Twilio settings to send the key(s) by SMS."
+msgstr ""
+
+#: includes/Admin/views/promos/misc-promo.php:21
+#: includes/Admin/views/promos/misc-promo.php:37
+msgid "Premium Feature"
+msgstr ""
+
+#: includes/Admin/views/promos/misc-promo.php:22
+#: includes/Admin/views/promos/misc-promo.php:38
+msgid "Upgrade to Pro Now"
+msgstr ""
+
+#: includes/Admin/views/promos/misc-promo.php:32
+#: includes/Admin/views/promos/misc-promo.php:41
+msgid "QR and Barcode Settings"
+msgstr ""
+
+#: includes/Admin/views/promos/misc-promo.php:33
+msgid "Configure the QR and Barcode related settings."
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:15
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:17
+msgid "Add custom fields to license keys"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:18
+msgid "Personalize and add metadata to keys"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:19
+msgid "Collect additional product-related information"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:22
+#: includes/Admin/views/settings/features.php:36
+#: includes/Admin/views/settings/features.php:48
+#: includes/Admin/views/settings/features.php:60
+#: includes/Admin/views/settings/features.php:72
+#: includes/Admin/views/settings/features.php:83
+#: includes/Admin/views/settings/features.php:94
+#: includes/Admin/views/settings/features.php:105
+#: includes/Admin/views/settings/features.php:116
+#: includes/Admin/views/settings/features.php:127
+#: includes/Admin/views/settings/features.php:138
+#: includes/Admin/views/settings/features.php:149
+msgid "Learn More"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:28
+msgid "Variable Products"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:31
+msgid "Manage license keys for each product variation"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:32
+msgid "Control key generation, expiration, activations"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:33
+msgid "Set keys delivered based on variation attributes"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:41
+msgid "Subscription Products"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:43
+msgid "Sell license keys with subscription products"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:44
+msgid "Sync key expiration with subscription expiry"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:45
+msgid "Automatic key status updates"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:53
+msgid "Bulk Import & Export"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:55
+msgid "Import/export keys in bulk via CSV or text files"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:56
+msgid "Include custom fields during import/export"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:57
+msgid "Bulk-generate pre-generated keys for sale"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:65
+msgid "SMS Notifications"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:67
+msgid "Notify customers with key details via SMS"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:68
+msgid "Customize SMS templates with key information"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:69
+msgid "SMS gateway for seamless communication"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:77
+msgid "Encrypted Keys"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:79
+msgid "Encrypt license keys for added security"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:80
+msgid "Automatic encryption on saving and decryption on viewing"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:88
+msgid "QR Codes"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:90
+msgid "Generate QR codes for license keys"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:91
+msgid "Simplify key verifications and activations for customers"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:99
+msgid "Barcode"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:101
+msgid "Create barcodes for key scanning and tracking"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:102
+msgid "Ideal for inventory management and quick verification"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:110
+msgid "Customize Key Labels"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:112
+msgid "Tailor key labels to align with your brand"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:113
+msgid "Customize key name, value, and status displays"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:121
+msgid "Multi vendor Support"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:123
+msgid "Support for multiple vendors to sell keys"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:124
+msgid "Compatible with Dokan and future support for other multivendor plugins"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:132
+msgid "Advanced Reporting"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:134
+msgid "Monitor activations and manage stock levels"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:135
+msgid "Track key generation, assignment, and usage in real-time"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:143
+msgid "Premium Support"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:145
+msgid "Dedicated assistance for any plugin issues"
+msgstr ""
+
+#: includes/Admin/views/settings/features.php:146
+msgid "Ensure smooth operations with prompt support"
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:15
+msgid "Bulk Keys Generator"
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:19
+msgid ""
+"Generate keys in bulk for a product. You can generate keys in bulk for a "
+"product using this tool."
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:22
+#. Translators: %1$s and %2$s are HTML tags.
+msgid ""
+"%1$sNote%2$s: Product key source will be automatically change to \"Preset\" "
+"if it is not already set & Generated keys will be treated as preset keys."
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:27
+msgid "Product *"
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:29
+msgid "Select a key enabled product..."
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:35
+msgid "Select the product associated with the key."
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:40
+msgid "Generator"
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:42
+msgid "Select a key generator..."
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:53
+msgid "Quantity *"
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:56
+msgid "Enter the number of keys to generate."
+msgstr ""
+
+#: includes/Admin/views/tools/general.php:64
+msgid "Generate Keys"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:12
+msgid "The Key. Required field."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:13
+msgid "ID of the product, the key is assigned to. Required field."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:14
+msgid ""
+"The keys remains valid for the number of days from the date of purchase. "
+"Optional field. Default is 0."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:15
+msgid "The key expires at this date. Optional field. Default is null."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:16
+msgid "Activation limit. Optional field. Default is 1."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:22
+msgid "CSV File Import"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:29
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag.
+msgid ""
+"Import keys from a CSV file. Download %1$s this sample file %2$s to learn "
+"how to format your CSV file. Please note that only the initial 1000 keys "
+"from the CSV file will be imported."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:35
+msgid "List of Fields"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:40
+msgid "Field"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:41
+msgid "Description"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:58
+msgid "CSV file"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:62
+msgid "Required field. Select a CSV file to import keys."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:83
+msgid "TXT File Import"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:90
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag.
+msgid ""
+"Import keys from a TXT file. Download %1$s this sample file %2$s to learn "
+"how to format your TXT file."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:105
+msgid "Select a product to import keys for."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:110
+msgid "Activation limit"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:113
+msgid ""
+"Maximum number of times the key can be used to activate the software. 0 for "
+"unlimited. If the product is not software, keep it blank."
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:124
+msgid "Text file"
+msgstr ""
+
+#: includes/Admin/views/tools/import.php:128
+msgid "Single key per line. Select a TXT file to import keys."
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:37
+msgid "Keys Details"
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:38
+msgid ""
+"This email is sent to the customer when an order containing keys is "
+"completed."
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:39 includes/Emails/CustomerKeys.php:40
+msgid "Your Key(s) from {site_title}"
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:151
+#. translators: 1: Email subject
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: %s."
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:159
+#. translators: 1: Email heading
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: %s."
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:165
+msgid "Additional content"
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:166
+msgid ""
+"Text to appear below the main email content. Available placeholders: "
+"{site_title}, {site_address}, {site_url}, {order_date}, {order_number}"
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:174
+msgid "Email type"
+msgstr ""
+
+#: includes/Emails/CustomerKeys.php:176
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/Handlers/Account.php:83
+msgid "Edit Keys"
+msgstr ""
+
+#: includes/Handlers/Account.php:231
+msgid "Activated At"
+msgstr ""
+
+#: includes/Handlers/Account.php:265 includes/Handlers/Account.php:302
+#: includes/Handlers/Account.php:309 includes/Handlers/Account.php:352
+#: includes/Handlers/Account.php:361
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: includes/Handlers/Account.php:273
+msgid "Please enter a valid key."
+msgstr ""
+
+#: includes/Handlers/Account.php:280
+msgid "The key is not valid."
+msgstr ""
+
+#: includes/Handlers/Account.php:316
+msgid ""
+"Invalid key. The key does not exist or you do not have permission to "
+"activate it."
+msgstr ""
+
+#: includes/Handlers/Account.php:336
+msgid "The key has been activated successfully."
+msgstr ""
+
+#: includes/Handlers/Account.php:368
+msgid ""
+"Invalid key. The key does not exist or you do not have permission to "
+"deactivate it."
+msgstr ""
+
+#: includes/Handlers/Account.php:380
+msgid "The key has been deactivated successfully."
+msgstr ""
+
+#: includes/Handlers/Misc.php:40
+msgid "API"
+msgstr ""
+
+#: includes/Handlers/Orders.php:84
+#. translators: %d: order ID %s: order status.
+msgid "Order #%1$d status changed to %2$s. Maybe we need to process the order."
+msgstr ""
+
+#: includes/Handlers/Orders.php:95
+#. translators: %d: order ID.
+msgid ""
+"Order #%d is not paid or does not contain keyed products. Skipping "
+"processing order."
+msgstr ""
+
+#: includes/Handlers/Orders.php:108
+#. translators: %d: order ID.
+msgid "Automatic delivery is disabled. Skipping processing order #%d."
+msgstr ""
+
+#: includes/Handlers/Orders.php:119
+#. translators: %d: order ID.
+msgid "Processing order #%d. The order is paid and contains keyed products."
+msgstr ""
+
+#: includes/Handlers/Orders.php:130
+#. translators: %1$d: order ID.
+msgid "Completed processing order #%1$d."
+msgstr ""
+
+#: includes/Handlers/Orders.php:155
+#. translators: %d: order ID.
+msgid "Revoking keys for order #%d"
+msgstr ""
+
+#: includes/Handlers/Orders.php:164
+#. translators: %d: order ID.
+msgid "Order #%d does not contain keyed products. Skipping revoking keys."
+msgstr ""
+
+#: includes/Handlers/Orders.php:177
+#. translators: %1$d: order ID, %2$d: number of keys revoked.
+msgid "Revoked %2$d keys from order #%1$d"
+msgstr ""
+
+#: includes/Handlers/Shortcodes.php:48
+msgid "Enter your key"
+msgstr ""
+
+#: includes/Handlers/Shortcodes.php:52
+msgid "Validate"
+msgstr ""
+
+#: includes/Handlers/Shortcodes.php:66
+msgid "The key has expired."
+msgstr ""
+
+#: includes/Handlers/Shortcodes.php:68
+msgid "The key is valid."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:121 includes/Handlers/SoftwareAPI.php:132
+#: includes/Handlers/SoftwareAPI.php:226 includes/Handlers/SoftwareAPI.php:300
+msgid "Invalid key, please provide a valid key."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:143 includes/Handlers/SoftwareAPI.php:550
+msgid "Key is expired."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:150
+msgid "Key is valid."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:244
+msgid "Key activated successfully."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:318
+msgid "Key deactivated successfully."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:377
+msgid "Invalid key or product id, please provide a valid key or product id."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:390 includes/Handlers/SoftwareAPI.php:506
+msgid "Invalid product, product not found."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:495
+msgid "Invalid product, please provide a valid product id."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:514
+msgid "No changelog found."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:534
+msgid "Invalid token."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:545
+msgid "Invalid key."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:555
+msgid "Your download link has expired."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:560
+msgid "Provided hash does not validate."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:566
+msgid "Invalid instance."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:571
+msgid "Invalid product."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:576
+msgid "No file found."
+msgstr ""
+
+#: includes/Handlers/SoftwareAPI.php:580
+msgid "Download handler not found."
+msgstr ""
+
+#: includes/Models/Activation.php:110 includes/Models/Generator.php:108
+msgid "Active"
+msgstr ""
+
+#: includes/Models/Activation.php:111 includes/Models/Generator.php:109
+msgid "Inactive"
+msgstr ""
+
+#: includes/Models/Activation.php:179
+msgid "An instance to identify the activation is required."
+msgstr ""
+
+#: includes/Models/Activation.php:184
+msgid "Key ID is required."
+msgstr ""
+
+#: includes/Models/Activation.php:196
+msgid "Activation with the same instance already exists."
+msgstr ""
+
+#: includes/Models/Generator.php:155
+msgid "The generator name is required."
+msgstr ""
+
+#: includes/Models/Generator.php:158
+msgid "The generator pattern is required."
+msgstr ""
+
+#: includes/Models/Generator.php:161
+msgid "The generator charset is required."
+msgstr ""
+
+#: includes/Models/Key.php:172
+msgid "Available"
+msgstr ""
+
+#: includes/Models/Key.php:173
+msgid "Sold"
+msgstr ""
+
+#: includes/Models/Key.php:174
+msgid "Activated"
+msgstr ""
+
+#: includes/Models/Key.php:175
+msgid "Expired"
+msgstr ""
+
+#: includes/Models/Key.php:176
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Models/Key.php:272
+msgid "Key is required. Please enter a key."
+msgstr ""
+
+#: includes/Models/Key.php:276
+msgid "Please select a associated product."
+msgstr ""
+
+#: includes/Models/Key.php:283
+msgid "Duplicate key is not allowed. Please enter a unique key."
+msgstr ""
+
+#: includes/Models/Key.php:342
+msgid "Click to reveal"
+msgstr ""
+
+#: includes/Models/Key.php:343
+msgid "Copy"
+msgstr ""
+
+#: includes/Models/Key.php:673
+msgid "Order not found."
+msgstr ""
+
+#: includes/Models/Key.php:699
+msgid "Product not found."
+msgstr ""
+
+#: includes/Models/Key.php:703
+msgid "Product is not a keyed product."
+msgstr ""
+
+#: includes/Models/Key.php:841
+msgid "The key could not be activated. The key is not valid for the product."
+msgstr ""
+
+#: includes/Models/Key.php:846
+msgid "The key could not be activated. The key is not valid for the email."
+msgstr ""
+
+#: includes/Models/Key.php:851
+msgid "The key could not be activated. The key has expired."
+msgstr ""
+
+#: includes/Models/Key.php:856
+msgid "The key could not be activated. The instance is missing."
+msgstr ""
+
+#: includes/Models/Key.php:861
+msgid "The key could not be activated. The activation limit has been reached."
+msgstr ""
+
+#: includes/Models/Key.php:952
+msgid "The key could not be deactivated. The instance is missing."
+msgstr ""
+
+#: includes/Models/Key.php:957
+msgid "The key could not be deactivated. The key has expired."
+msgstr ""
+
+#: includes/Models/Key.php:962
+msgid "The key could not be deactivated. The activation is not found."
+msgstr ""
+
+#: includes/Plugin.php:82
+msgid "Go Pro"
+msgstr ""
+
+#: includes/functions.php:480
+#. translators: %d: order ID.
+msgid "Processing of order #%d is not allowed."
+msgstr ""
+
+#: includes/functions.php:492
+#. translators: %d: order ID.
+msgid "Order #%d does not contain keyed products. Skipping processing order."
+msgstr ""
+
+#: includes/functions.php:521
+#. translators: %d: order item ID.
+msgid "Processing order item #%d"
+msgstr ""
+
+#: includes/functions.php:533
+#. translators: %d: product ID.
+msgid "Product #%d is not a keyed product. Skipping processing."
+msgstr ""
+
+#: includes/functions.php:546
+#. translators: %d: item ID %d: delivery quantity.
+msgid ""
+"Delivery quantity for order item #%1$d was set previously. Using the saved "
+"delivery quantity %2$d."
+msgstr ""
+
+#: includes/functions.php:559
+#. translators: %d: item ID %d: delivery quantity.
+msgid ""
+"Delivery quantity for order item #%1$d was not set. Saved delivery quantity "
+"as %2$d."
+msgstr ""
+
+#: includes/functions.php:571
+#. translators: %d: total quantity.
+msgid "The item should have %d keys in total."
+msgstr ""
+
+#: includes/functions.php:589
+#. translators: %d: total quantity, %d: added count.
+msgid "The item already has %2$d keys. Total keys needed %1$d. Skipping processing."
+msgstr ""
+
+#: includes/functions.php:602
+#. translators: %d: total quantity, %d: added count.
+msgid "Previously added %1$d keys for the item. Need to add %2$d more keys."
+msgstr ""
+
+#: includes/functions.php:631
+#. translators: %d: total quantity, %d: added count.
+msgid "Found %1$d available keys for the item."
+msgstr ""
+
+#: includes/functions.php:653
+#. translators: %d: key ID.
+msgid "Key #%1$d added to the order item %2$d."
+msgstr ""
+
+#: includes/functions.php:668 includes/functions.php:674
+#. translators: %1$s: product name, %2$d: total quantity, %3$d: needed count.
+msgid ""
+"Not enough keys available for product %1$s. Needed %2$d, but only %3$d "
+"available."
+msgstr ""
+
+#: includes/functions.php:693
+#. translators: %d: order item ID.
+msgid "All keys added for order item #%1$d."
+msgstr ""
+
+#: includes/functions.php:731
+#. translators: %d: order ID.
+msgid "Order #%d is not a keyed order. Skipping revoking keys."
+msgstr ""
+
+#: includes/functions.php:762
+#. translators: %d: order item ID.
+msgid "Revoking keys for order item #%d."
+msgstr ""
+
+#: includes/functions.php:773
+#. translators: %d: order item ID.
+msgid "No keys found for order item #%d."
+msgstr ""
+
+#: includes/functions.php:786
+#. translators: %d: key ID %s: action, %d: order item ID.
+msgid "Key #%1$d %2$s from the order item %3$d."
+msgstr ""
+
+#: includes/functions.php:788
+msgid "revoked"
+msgstr ""
+
+#: includes/functions.php:788
+msgid "deleted"
+msgstr ""
+
+#: lib/ByteKit/Admin/Notices.php:130
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:87
+msgid "Settings saved."
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:251 lib/ByteKit/Admin/Settings.php:346
+msgid "Recommended"
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:252 lib/ByteKit/Admin/Settings.php:347
+msgid "Install Now"
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:315
+msgid "Need Help?"
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:361
+msgid "Join our Community"
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:365
+msgid "Request a Feature"
+msgstr ""
+
+#: lib/ByteKit/Admin/Settings.php:369
+msgid "Report a Bug"
+msgstr ""
+
+#: lib/ByteKit/Traits/HasPlugin.php:223
+msgid "Support"
+msgstr ""
+
+#: lib/ByteKit/Traits/HasPlugin.php:230
+msgid "Review"
+msgstr ""
+
+#: templates/emails/customer-keys.php:26
+#: templates/emails/plain/customer-keys.php:25
+#. translators: %s: Customer first name
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/emails/customer-keys.php:32
+#: templates/emails/plain/customer-keys.php:32
+#: templates/emails/plain/email-keys.php:25
+#. translators: %1$d: Order number, %2$s: Order date.
+msgid "Here are the key(s) of your order #%1$d placed on %2$s:"
+msgstr ""
+
+#: templates/emails/email-keys.php:23
+#: templates/emails/plain/customer-keys.php:42
+#: templates/emails/plain/email-keys.php:35
+msgid "Key(s)"
+msgstr ""
+
+#: templates/emails/email-keys.php:111 templates/order/keys.php:103
+msgid ""
+"Your keys will be dispatched shortly. The delivery timeframe ranges from a "
+"few minutes to a maximum of 24 hours, depending on payment processing and "
+"our internal procedures. Your understanding and patience are highly valued."
+msgstr ""
+
+#: templates/key/activations.php:103
+msgid "optional"
+msgstr ""
+
+#: templates/key/activations.php:104
+msgid "Enter a reference for this activation"
+msgstr ""
+
+#: templates/key/view.php:47
+msgid "Key Details"
+msgstr ""
+
+#: templates/key/view.php:53
+#. translators: 1: order number 2: order date 3: order status
+msgid "The key was purchased on %1$s and the order ID is: %3$s."
+msgstr ""
+
+#: templates/myaccount/keys.php:91
+msgid "Go Shop"
+msgstr ""
+
+#: templates/myaccount/keys.php:93
+msgid "No key has been purchased yet."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WC Key Manager"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wckeymanager.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce Key Manager is a WooCommerce plugin for selling and managing "
+"license keys, game keys, pin codes, gift cards, serial numbers, and other "
+"items."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PluginEver"
+msgstr ""
+
+#: includes/Admin/ListTables/GeneratorsTable.php:317
+#: includes/Models/Key.php:517
+#. translators: %d: number of days.
+msgctxt "valid for days"
+msgid "%d day <small>After Purchase</small>"
+msgid_plural "%d days <small>After Purchase</small>"
+msgstr[0] ""
+msgstr[1] ""
